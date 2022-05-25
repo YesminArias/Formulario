@@ -45,7 +45,7 @@ export default function Menu() {
     Hola, bienvenido, sabemos que quieres viajar en un <strong>{aerolinea}</strong>, por favor diligencia el siguiente formulario:
     
           </p> : <p className='bienvenida'>
-            Bienvenido
+            Bienvenido, seleccione una aerolinea 
           </p>}
          
     </div>
