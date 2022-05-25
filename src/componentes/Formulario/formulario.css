@@ -1,0 +1,32 @@
+
+.buttonEnviar{
+    cursor: pointer;
+    margin:auto ;
+    font-size: 3vh;
+    padding:1vw 2vw;
+    border-radius: 5px;
+    box-shadow: -1px 1px 13px 0px;
+    border: 1px solid #fff;
+    color: rgb(11, 50, 101);
+    
+}
+.buttonEnviar:hover{
+    background-color:rgb(1, 79, 103);
+    color:white;
+}
+
+
+span {
+    color:red;
+}
+.form {
+    width: 80%;
+}
+.formControl {
+    margin:10px;
+}
+.base{
+    display:flex;
+    justify-content:center;
+    align-items: start;
+}
