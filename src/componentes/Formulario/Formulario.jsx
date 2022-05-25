@@ -28,7 +28,7 @@ export default function Formulario() {
     setMobile("");
     setAge("");
     Swal.fire({
-      position: 'top-center',
+      position: 'center',
       icon: 'success',
       title: 'Tu información fue enviada con éxito, estaremos en contacto contigo',
       showConfirmButton: false,
@@ -94,7 +94,7 @@ export default function Formulario() {
   );
 }
 const validate = (name, email, mobile, age) => {
-  
+
   if (!name || !email || !age || !mobile) {
     return "ingrese todos los campos por favor";
   }
